@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>  
+    
+<!-- banner Image Section -->
+<header>
+<section id="img_size">
+    <img src="./land_img.jpg" alt=""> 
+</section>
+</header>
+
+<!----Nav_bar------>
+<section>
+  <div class="container_nav">
+      <div class="row">
+          <!-------Logo------- Im taking out this for time being
+          <div class="logo">
+              <img class ="imgsize" src="./CIHE-logo.png" alt="">
+          </div> --->
+
+          <!----Menu----->
+         <nav>
+          <ul class = "items">
+              <li class = "items_list">
+                  <a class ="items_link" href="./home.html">Home</a>
+              </li>
+              <li class = "items_list">
+                  <a class ="items_link" href="./About.html">About</a>
+              </li>
+              <li class = "items_list">
+                  <a class ="items_link" href="./service.html">Service</a>
+              </li>
+              <li class = "items_list">
+                  <a class ="items_link" href="./contact.html">Contact</a>
+                  
+                
+                  <!---Sub menu  * No need * making simple
+                  <ul class ="submenu">
+                      <li class ="submenu_list">
+                          <a class ="submenu_link" href="#">Email</a>
+                      </li>
+                      <li class ="submenu_list">
+                          <a class ="submenu_link" href="#">Phone on</a>
+                      </li>
+                      <li class ="submenu_list">
+                          <a class ="submenu_link" href="#">Location</a>
+                      </li>
+                  </ul>----->
+
+              </li>
+              <li class = "items_list">
+                  <a class ="items_link" href="./admin.html">Admin panel</a>
+              </li>
+          </ul>
+         </nav>
+
+         <!----buttons--- I'm taking out this
+        <div class="inner_btn">
+          <button class ="solid_btn">Login</button>
+        </div> --->
+
+      </div>
+  </div>
+</section>
+
+<section id="admin_page_space">
+
+</section>
+
+<!-- Database list -->
+<section id="admin-section">
+<h2>Customer Database</h2>
+<table class="table-data">
+  <thead>
+      <tr>
+          <th>ID No</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Phone Number</th>
+          <th>Address</th>
+          <th>Reservation Details</th>
+          <th>Check-in Date</th>
+          <th>Check-out Date</th>
+          <th>Delete</th>
+          <th>Modify</th>
+      </tr>
+  </thead>
+  <tbody>
+      <!-- Repeat the following row 10 times -->
+      <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Doe</td>
+          <td>123-456-7890</td>
+          <td>123 Main St, City</td>
+          <td>Room 101, 2 Nights</td>
+          <td>2024-09-12</td>
+          <td>2024-09-14</td>
+          <td><button>Delete</button></td>
+          <td><button>Modify</button></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Jane</td>
+          <td>Smith</td>
+          <td>987-654-3210</td>
+          <td>456 Oak St, City</td>
+          <td>Room 102, 3 Nights</td>
+          <td>2024-09-15</td>
+          <td>2024-09-18</td>
+          <td><button>Delete</button></td>
+          <td><button>Modify</button></td>
+      </tr>
+      <!-- Add more rows as needed -->
+      <!-- Placeholder rows -->
+  </tbody>
+</table>
+
+</section>
+
+
+<!-- Footer Section -->
+<section id="footer_section">
+    <div class="container my-5">
+
+        <footer style="background-color: #eee6d3;">
+          <div class="container p-4">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 mb-4">
+                <h5 class="mb-3 text-dark">Our Address:</h5>
+                <p>
+                  Crown Institute of Higher Education<br>
+                  116, Pacific Hwy, North Sydney NSW.
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3 text-dark">Links</h5>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-1">
+                    <a href="#!" style="color: #4f4f4f;">Home</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!" style="color: #4f4f4f;">About</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="#!" style="color: #4f4f4f;">Booking</a>
+                  </li>
+                  <li>
+                    <a href="#!" style="color: #4f4f4f;">Admin panel</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-1 text-dark">opening hours</h5>
+                <table class="table" style="border-color: #666;">
+                  <tbody>
+                    <tr>
+                      <td>Mon - Fri:</td>
+                      <td>8am - 9pm</td>
+                    </tr>
+                    <tr>
+                      <td>Sat - Sun:</td>
+                      <td>8am - 1am</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+      </div>
+</section>
+
+</body>
+</html>
